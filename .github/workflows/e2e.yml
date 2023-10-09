@@ -25,3 +25,4 @@ jobs:
             make build &&
             make package &&
             make e2e
+
