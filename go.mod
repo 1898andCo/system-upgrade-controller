@@ -106,5 +106,6 @@ require (
 	sigs.k8s.io/structured-merge-diff/v4 v4.2.3 // indirect
 	sigs.k8s.io/yaml v1.3.0 // indirect
 )
-
+// this allows us to keep the existing include but alias it to the local code
+// rather than pulling down the repo
 replace github.com/rancher/system-upgrade-controller/pkg/apis => ./pkg/apis
